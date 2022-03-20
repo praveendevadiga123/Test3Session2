@@ -1,2 +1,2 @@
-language = "bash"
+jlanguage = "bash"
 run = "pwd"

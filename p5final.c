@@ -18,7 +18,7 @@ void ets(int n, int a[n])
 {
   int i=0;
    /* Find next non-zero number */
-  while(i<sqrt(n)){
+  while(i<sqrt) {
    for(;a[i]==0 ;i++);
    for(int k=i+i;k<n;k += i)
      a[i] = 0;

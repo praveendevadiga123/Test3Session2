@@ -1,6 +1,6 @@
 /*
 Write a program find whether a given number is a prime number.
-int input_number();
+iut_number();
 int is_prime(int n);
 void output(int n, int is_prime);
 */
@@ -8,6 +8,7 @@ void output(int n, int is_prime);
 #include <stdio.h>
 #include <math.h>
 int input()
+
 {
   int n;
   printf("Enter the number\n");
@@ -15,7 +16,7 @@ int input()
   return n;
 }
 
-int isprime(int n)
+int isprime(int n);
 {
   if (n==0 || n==1) {
     return 0
@@ -35,13 +36,13 @@ void output(int n, int isp)
   if(isp == 0)
     printf("%d is not a prime number\n",n);
   else
-    printf("%d is a prime number\n",n)
+    printf("%d is a prime number\n",n);
 }
 
 int main()
 {
   int n = input();
-  int isp = isprime(n);
+  int isp = isprime(n):
   output(n,isp);
   return 0;
   }
