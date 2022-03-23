@@ -6,6 +6,7 @@ struct _fraction
 typedef struct _fraction Fraction;
   int gcd(int a,int b)
   {
+    
     int t;
     while (b != 0)
       {
